@@ -1,0 +1,21 @@
+﻿Build started 2016/12/21 0:19:43.
+     1>Project "E:\CODE\test\testEigen\testEigen\testEigen.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         F:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt testGeo.cpp
+         testGeo.cpp
+     1>e:\code\common_utils\eigen3.3.1\include\eigen3\eigen\src\core\arch\cuda\half.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\code\test\testeigen\testeigen\testgeo.cpp(23): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>e:\code\test\testeigen\testeigen\testgeo.cpp(24): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>e:\code\test\testeigen\testeigen\testgeo.cpp(25): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>e:\code\test\testeigen\testeigen\testgeo.cpp(44): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>e:\code\test\testeigen\testeigen\testgeo.cpp(45): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>e:\code\test\testeigen\testeigen\testgeo.cpp(46): warning C4305: 'argument' : truncation from 'double' to 'const float'
+       Link:
+         F:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\CODE\test\testEigen\Debug\testEigen.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\CODE\test\testEigen\Debug\testEigen.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\CODE\test\testEigen\Debug\testEigen.lib" /MACHINE:X86 Debug\test.obj
+         Debug\testGeo.obj
+         testEigen.vcxproj -> E:\CODE\test\testEigen\Debug\testEigen.exe
+     1>Done Building Project "E:\CODE\test\testEigen\testEigen\testEigen.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.90
